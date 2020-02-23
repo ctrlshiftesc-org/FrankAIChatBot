@@ -1,0 +1,47 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en-us": {
+      "dispatchModel": {
+        "authoringkey": "0628ab6e51a1489f8f48f8856f2a0de0",
+        "version": "Dispatch",
+        "appid": "db2c1ab0-1ebc-41b5-891d-c557c69c4ae2",
+        "type": "dispatch",
+        "subscriptionkey": "54d2caf1f3234a1e8bc5230a52fa63a8",
+        "name": "FrankAIChaten-us_Dispatch",
+        "region": "eastus",
+        "authoringRegion": "westus"
+      },
+      "languageModels": [
+        {
+          "version": "0.1",
+          "appid": "f5068451-5cfc-48b0-939f-b4ecbf421d2e",
+          "subscriptionkey": "54d2caf1f3234a1e8bc5230a52fa63a8",
+          "id": "General",
+          "name": "FrankAIChaten-us_General",
+          "region": "eastus",
+          "authoringkey": "0628ab6e51a1489f8f48f8856f2a0de0",
+          "authoringRegion": "westus"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "subscriptionKey": "633ef9f4831345d9a892e9f799288407",
+          "kbId": "ae608211-d474-4357-81de-34037e7ed1b6",
+          "endpointKey": "3027e944-ae4a-424d-a647-4877a91022b0",
+          "id": "Chitchat",
+          "name": "Chitchat",
+          "hostname": "https://frankaichat-qnahost-67iwtw4.azurewebsites.net"
+        },
+        {
+          "subscriptionKey": "633ef9f4831345d9a892e9f799288407",
+          "kbId": "0770e11b-a6ff-4fca-9d7c-1ba9dbc76c3b",
+          "endpointKey": "3027e944-ae4a-424d-a647-4877a91022b0",
+          "id": "Faq",
+          "name": "Faq",
+          "hostname": "https://frankaichat-qnahost-67iwtw4.azurewebsites.net"
+        }
+      ]
+    }
+  }
+}
